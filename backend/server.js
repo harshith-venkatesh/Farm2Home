@@ -1,11 +1,9 @@
-import dotenv from "dotenv";
 import path from "path";
 import userRoute from "./Route/Route";
 const bodyParser = require("body-parser");
 import productRoute from "./Route/productRoute";
 const mongoose = require("mongoose");
 const express = require("express");
-dotenv.config();
 
 const mongodbURL = process.env.MONGODB_URL;
 mongoose.set("useCreateIndex", true);
