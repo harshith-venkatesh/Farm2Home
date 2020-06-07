@@ -1,1 +1,1 @@
-web:npm install && npm build
+web:node dist/server.js
