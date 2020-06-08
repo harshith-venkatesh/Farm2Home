@@ -1,4 +1,4 @@
-import dotenv from "dotenv";
+//import dotenv from "dotenv";
 import path from "path";
 import userRoute from "./Route/Route";
 const bodyParser = require("body-parser");
@@ -6,7 +6,7 @@ import productRoute from "./Route/productRoute";
 import config from "./config";
 const mongoose = require("mongoose");
 const express = require("express");
-dotenv.config();
+//dotenv.config();
 
 const mongodbURL = process.env.MONGODB_URL;
 console.log(mongodbURL);
